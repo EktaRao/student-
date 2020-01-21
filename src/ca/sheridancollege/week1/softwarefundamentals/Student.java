@@ -1,10 +1,7 @@
 
 package ca.sheridancollege.week1.softwarefundamentals;
 
-/**
- *
- * @author sidhu376  -- commit
- */
+
 public class Student {
         
     private String name;
@@ -14,7 +11,8 @@ public class Student {
     private int grade;
     private int number;
         private int standard;
-
+      private int gpa;
+        private int program;
     public int getId() {
         return id;
     }
