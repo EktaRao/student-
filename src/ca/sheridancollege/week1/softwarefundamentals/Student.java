@@ -14,6 +14,9 @@ public class Student {
     private int grade;
     private int number;
         private int standard;
+        private int gpa;
+        private int program;
+ 
 
     public int getId() {
         return id;
