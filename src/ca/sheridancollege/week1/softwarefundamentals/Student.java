@@ -14,20 +14,39 @@ public class Student {
     private String name;
     private int studentid;
 
-    /**
-     * Get the value of name
-     *
-     * @return the value of name
-     */
+    private int id;
+    private int grade;
+    private int number;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+            
     public String getName() {
         return name;
     }
 
-    /**
-     * Set the value of name
-     *
-     * @param name new value of name
-     */
+   
     public void setName(String name) {
         this.name = name;
     }
