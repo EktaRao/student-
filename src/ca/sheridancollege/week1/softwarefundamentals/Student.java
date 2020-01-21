@@ -17,6 +17,7 @@ public class Student {
     private int id;
     private int grade;
     private int number;
+        private int standard;
 
     public int getId() {
         return id;
